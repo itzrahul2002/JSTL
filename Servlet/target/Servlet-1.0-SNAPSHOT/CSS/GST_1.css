@@ -1,0 +1,51 @@
+.box{
+    background: antiquewhite;
+    text-align: center;
+}
+.box h1{
+    margin-bottom: 10%;
+    padding-top: 8%;
+    font-size: 40px;
+    margin-left: 10%;
+}
+/*.box h1{*/
+/*    font-size: 40px;*/
+/*}*/
+
+label{
+    margin-left: 12%;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+.country{
+    width: 45%;
+    height: 30px;
+    margin-bottom: 5%;
+    margin-left: 12%;
+}
+.rate{
+    width: 45%;
+    height: 30px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.amt{
+    width: 44%;
+    height: 30px;
+    margin-bottom: 5%;
+    margin-left: 9%;
+}
+.btn{
+    width: 45%;
+    height: 50px;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: 600;
+    color: white;
+    background: green;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

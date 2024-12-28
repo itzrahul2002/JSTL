@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/Discount.css">
+
+</head>
+    <body>
+            <div class="wrapper">
+                <h1 class="title">Discount Calculator</h1>
+
+                <form action='Discount-servlet'>
+
+                    <div class="form-group">
+                        <label for="originalPrice">Original Price</label>
+                        <input type="number" name="amt" placeholder="Enter Value" id="originalPrice">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="discount">Discount (%)</label>
+                        <input type="number" name="dis" placeholder="Enter Value" id="discount">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label >Final Price</label>
+                        <input type="text" name="" id="finalPrice" value="0" disabled>
+                    </div>
+
+                    <div id="Btn">
+                        <button>Find</button>
+                    </div>
+
+                    <div id="resetBtn">
+                        <button type="reset" id="reset">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+    </body>
+</html>
